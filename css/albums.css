@@ -45,8 +45,9 @@
 }
 
 #albums .albums__row .album__item .album__header .album__header-image {
-  width: 35px;
-  height: 35px;
+  width: 25px;
+  height: 25px;
+  margin-top: 5px;
   margin-right: 5px;
 }
 
@@ -67,7 +68,7 @@
   color: #5dc952;
 }
 
-#albums .more {
+#albums .more_button {
   width: 100%;
   padding-bottom: 15px;
   margin-bottom: 15px;
