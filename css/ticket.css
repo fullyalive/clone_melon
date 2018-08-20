@@ -1,0 +1,123 @@
+#ticket {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+#ticket .main-ticket__banner {
+  position: relative;
+  width: 100%;
+  margin-bottom: 30px;
+}
+
+#ticket .main-ticket__banner .main-ticket__info {
+  z-index: 3;
+  position: absolute;
+  bottom: 10px;
+  left: 15px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  color: white;
+  font-size: 14px;
+}
+
+.main-ticket__banner .main-ticket__info .main-ticket__sub-title {
+  margin-bottom: 5px;
+}
+
+.main-ticket__banner .main-ticket__info .main-ticket__title {
+  margin-bottom: 5px;
+  color: #5dc952;
+  font-size: 18px;
+}
+
+.main-ticket__banner .main-ticket__info .main-ticket__date {
+  margin-bottom: 5px;
+  font-size: 13px;
+}
+
+#ticket .main-ticket__banner .main-ticket__banner-image {
+  width: 100%;
+  height: 100%;
+  min-height: 200px;
+  max-height: 400px;
+}
+
+#ticket .sub-ticket__board-title {
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+#ticket .ticket__row {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  margin-bottom: 15px;
+  font-size: 14px;
+}
+
+#ticket .ticket__row .album__item {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  width: 50%;
+}
+
+#ticket .ticket__row .album__item:first-child {
+  margin-right: 15px;
+}
+
+#ticket .ticket__row .album__item .album__header {
+  position: absolute;
+  top: 0;
+  left: 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  margin-top: 5px;
+}
+
+#ticket .ticket__row .album__item .album__header .album__header-text {
+  padding-bottom: 10px;
+  margin-left: 10px;
+  color: white;
+  font-size: 12px;
+}
+
+#ticket .ticket__row .album__item .album__header .album__header-image {
+  width: 25px;
+  height: 25px;
+  margin-top: 5px;
+  margin-right: 5px;
+}
+
+#ticket .ticket__row .album__item .album__image {
+  width: 100%;
+  height: 100%;
+  min-height: 177.5px;
+  margin-bottom: 10px;
+  cursor: pointer;
+}
+
+#ticket .ticket__row .album__item .album__title {
+  margin-bottom: 5px;
+  cursor: pointer;
+}
+
+#ticket .ticket__row .album__item .album__creator {
+  color: #5dc952;
+}
+
+#ticket .more_button {
+  width: 100%;
+  padding-bottom: 15px;
+  text-align: center;
+  color: #b4b4b4;
+  font-size: 15px;
+  border-bottom: 1px solid #efefef;
+  cursor: pointer;
+}

@@ -1,0 +1,110 @@
+@charset "utf-8";
+
+/* 12월프로모션 */
+.wrap_promotion.evt10 {padding-bottom:0;background:#fff;margin:0}
+.wrap_promotion.evt10 img{width:100%}
+.wrap_promotion.evt10 .promotion_tit{line-height:0}
+.wrap_promotion.evt10 .promotion_coupon{position:relative;line-height:0}
+.wrap_promotion.evt10 .promotion_coupon a{position:absolute;top:31.2%;width:26.2%;height:37%;display:block;text-indent:-9999px}
+.wrap_promotion.evt10 .promotion_coupon .coupon01{left:8.2%}
+.wrap_promotion.evt10 .promotion_coupon .coupon02{left:37%}
+.wrap_promotion.evt10 .promotion_coupon .coupon03{left:65.5%}
+.wrap_promotion.evt10 .performance12_list{background-color:#f2c851;padding-bottom:13px;}
+.wrap_promotion.evt10 .performance12_list .performance12_list_group{margin:0 28px 22px;}
+.wrap_promotion.evt10 .performance12_title{background-color:#ff831c;text-align:center;border:2px solid #64122b;border-bottom:0 none;border-radius:10px 10px 0 0;height:50px;padding-top:15px}
+.wrap_promotion.evt10 .performance12_title span {display:inline-block;text-indent:-9999px}
+.wrap_promotion.evt10 .performance12_title.title01:before{content:"";display:block;background: url('http://cdnticket.melon.co.kr/resource/image/web/promotion/p_10/performance12_title.jpg') no-repeat center 0;height:17px;widht:199px;background-size:199px auto;-webkit-background-size:199px auto;}
+.wrap_promotion.evt10 .performance12_title.title02:before{content:"";display:block;background: url('http://cdnticket.melon.co.kr/resource/image/web/promotion/p_10/performance12_title.jpg') no-repeat center -17px;height:17px;widht:199px;background-size:199px auto;-webkit-background-size:199px auto;}
+
+.wrap_promotion.evt10 .performance12_con{border-left:2px solid #64122b;border-right:2px solid #64122b;background-color:#fff;overflow:hidden}
+.wrap_promotion.evt10 .performance12_con ul li{letter-spacing:0}
+.wrap_promotion.evt10 .performance12_con ul li .date{text-align:center;display:block;background-color:#ffdaba;font-size:16px;color:#2e2e2e;height:39px;line-height:42px;font-weight:bold}
+.wrap_promotion.evt10 .performance12_con ul li a{display:block;position:relative;border-top:1px solid #ccc;padding:10px 35px 7px 17px;font-size:14px;color:#2e2e2e;}
+.wrap_promotion.evt10 .performance12_con ul li a:after{content:"";display:block;clear:both;position:absolute;right:17px;top:50%;margin-top:-7px;background: url('http://cdnticket.melon.co.kr/resource/image/web/promotion/p_10/blet.jpg') no-repeat 0 0;height:14px;width:7px;background-size:7px auto;-webkit-background-size:7px auto;}
+.wrap_promotion.evt10 .performance12_con ul ul li:first-child a{border-top:1px solid #fff;}
+
+.wrap_promotion.evt10 .btn_box{background-color:#e1dddc;text-align:center;border:2px solid #64122b;border-top:0 none;border-radius:0 0 10px 10px;}
+.wrap_promotion.evt10 .btn_box a{display:block;height:45px;padding-top:15px}
+.wrap_promotion.evt10 .btn_box a span {display:inline-block;text-indent:-9999px}
+.wrap_promotion.evt10 .btn_box a.more:before{content:"";display:block;background: url('http://cdnticket.melon.co.kr/resource/image/web/promotion/p_10/btn_box.jpg') no-repeat center 0;height:15px;widht:60px;background-size:60px auto;-webkit-background-size:60px auto;}
+.wrap_promotion.evt10 .btn_box a.close:before{content:"";display:block;background: url('http://cdnticket.melon.co.kr/resource/image/web/promotion/p_10/btn_box.jpg') no-repeat center -15px;height:15px;widht:60px;background-size:60px auto;-webkit-background-size:60px auto;}
+
+/* 스테이지 메이커스 */
+.wrap_promotion.evt11 {padding-bottom:0;background:#fafafa;margin:0}
+.wrap_promotion.evt11 img{width:100%}
+.wrap_promotion.evt11 h3{line-height:0}
+.wrap_promotion.evt11 .promotion_makers_top{line-height:0}
+.wrap_promotion.evt11 .wrap_makers_ing{}
+.wrap_makers_ing .makers_ing_top, .wrap_makers_achieve .makers_achieve_top{position:relative;color:#fff}
+.wrap_makers_ing .makers_ing_top .artist_img, .wrap_makers_achieve .artist_img{position:relative;line-height:0}
+.wrap_makers_ing .makers_ing_top .artist_img:before, .wrap_makers_achieve .artist_img:before
+{content:"";display:block;overflow:hidden;position:absolute;bottom:0;left:0;width:100%;height:150px;
+	background-image:linear-gradient(top, rgba(255,255,255,0) 0%, rgba(0,0,0,0.5) 100%);
+	background-image:-o-linear-gradient(top, rgba(255,255,255,0) 0%, rgba(0,0,0,0.5) 100%);
+	background-image:-moz-linear-gradient(top, rgba(255,255,255,0) 0%, rgba(0,0,0,0.5) 100%);
+	background-image:-webkit-linear-gradient(top, rgba(255,255,255,0) 0%, rgba(0,0,0,0.5) 100%);
+}
+
+/*.wrap_makers_ing .makers_ing_top .artist_img:before, .wrap_makers_achieve .artist_img:before{content:"";display:block;position:absolute;width:100%;height:240px;left:0;bottom:0;right:0;background: transparent url('../../../image/web/promotion/p_11/artist_img_dim.png') repeat-x 0 bottom;background-size:10px 240px;-webkit-background-size:10px 240px;}*/
+
+.wrap_makers_ing .makers_ing_top .artist_img:after, .wrap_makers_achieve .artist_img:after{content:"";display:block;position:absolute;left:0;top:0;right:0;bottom:0;border:1px solid #000;opacity:0.1;filter:alpha(opacity=10);}
+.wrap_makers_ing .makers_ing_top .artist_con, .wrap_makers_achieve .makers_achieve_top .artist_con{position:absolute;left:16px;bottom:19px;z-index:99}
+.wrap_promotion.evt11 .artist_con .stage_num{display:inline-block;position:relative;font-size:11px;padding:3px 5px 0;height:20px;margin-bottom:7px}
+.wrap_promotion.evt11 .artist_con .stage_num:before{content:"";display:block;position:absolute;top:0;left:0;background-color:#000;height:20px;width:100%;opacity:0.25;filter:alpha(opacity=25);z-index:-1}
+.wrap_promotion.evt11 .artist_con .stage_num:after{content:"";display:block;position:absolute;top:0;left:0;right:0;border:1px solid #fff;height:20px;z-index:1}
+.wrap_promotion.evt11 .artist_con .stage_name{display:block;font-size:22px;font-weight:bold;line-height:25px;padding-bottom:2px}
+.wrap_promotion.evt11 .artist_con .stage_date{font-size:15px;font-weight:bold;}
+.wrap_makers_ing .makers_ing_con{position:relative;background-color:#fff;border-bottom:1px solid #e5e5e5;margin-bottom:16px}
+.wrap_makers_ing .makers_ing_con h5{display:none}
+.wrap_makers_ing .makers_ing_con .ico_sec{height:64px;padding-left:25px}
+.wrap_makers_ing .makers_ing_con .ico_sec span{display:inline-block;height:27px;width:87px;margin-top:22px;background: url('http://cdnticket.melon.co.kr/resource/image/mobile/promotion/evt11/makers_ing_con_ico.png') no-repeat 0 0;background-size:174px auto;-webkit-background-size:174px auto;text-indent:-9999px}
+.wrap_makers_ing .makers_ing_con .ico_sec .seat{background-position:0 0;margin-right:29px}
+@media screen and (max-width:320px){ /* iphone4,5 */
+	.wrap_makers_ing .makers_ing_con .ico_sec{padding-left:16px}
+	.wrap_makers_ing .makers_ing_con .ico_sec .seat{margin-right:14px}
+}
+.wrap_makers_ing .makers_ing_con .ico_sec .seat.on{background-position:-87px 0;}
+.wrap_makers_ing .makers_ing_con .ico_sec .discount{background-position:0 -27px;}
+.wrap_makers_ing .makers_ing_con .ico_sec .discount.on{background-position:-87px -27px;}
+.wrap_makers_ing .makers_ing_con .btn_participate{position:absolute;right:16px;top:10px;display:block;background-color:#00b2b2;width:86px;height:46px;line-height:48px;color:#fff;font-size:14px;text-align:center;border-radius:5px;}
+.wrap_makers_ing .makers_ing_con h5.tit_selection{height:68px;width:100%;padding:0 115px 0 16px;display:table;background: url('http://cdnticket.melon.co.kr/resource/image/mobile/promotion/evt11/makers_ing_con_line.gif') repeat-x 0 0;background-size:5px auto;-webkit-background-size:5px auto;}
+.wrap_makers_ing .makers_ing_con h5.tit_selection span{display:table-cell;height:68px;vertical-align:middle;font-size:14px;line-height:18px;color:#2a2c37;}
+.wrap_makers_ing .makers_ing_con h5.tit_selection span strong{font-weight:bold}
+.wrap_makers_ing .makers_ing_con .btn_selection{position:absolute;right:16px;top:80px;display:block;background-color:#fff;border:1px solid #333;width:86px;height:36px;line-height:36px;color:#333;font-size:13px;text-align:center;border-radius:5px;}
+.promotion_makers_achieve .wrap_makers_achieve{position:relative;overflow:hidden;}
+.promotion_makers_achieve .wrap_makers_achieve .makers_achieve_con{height:68px;width:100%;padding:0 150px 0 16px;display:table;position:relative;background-color:#fff;}
+.promotion_makers_achieve .wrap_makers_achieve.stage_gap .makers_achieve_con{margin-bottom:16px;border-bottom:1px solid #e5e5e5}
+.promotion_makers_achieve .wrap_makers_achieve .makers_achieve_con .txt_complete{display:table-cell;height:68px;vertical-align:middle;font-size:13px;line-height:18px;color:#2a2c37}
+.promotion_makers_achieve .wrap_makers_achieve .makers_achieve_con .txt_complete strong{font-weight:bold}
+.promotion_makers_achieve .wrap_makers_achieve .makers_achieve_con .btn_melon_ticket{position:absolute;top:16px;right:16px;display:block;background-color:#00cd3c;width:125px;height:36px;line-height:38px;color:#fff;font-size:14px;text-align:center;border-radius:8px;}
+.promotion_makers_achieve .wrap_makers_achieve .makers_confirm{display:block;position:absolute;top:12px;left:-49px;width:150px;background-color:#00cd3c;font-size:15px;font-weight:bold;height:28px;line-height:32px;color:#fff;text-align:center;-webkit-transform:rotate(-45deg);-moz-transform:rotate(-45deg);-o-transform:rotate(-45deg);-ms-transform:rotate(-45deg);transform:rotate(-45deg);z-index:9}
+.wrap_promotion.evt11 .promotion_makers_notice{background-color:#eee;line-height:0}
+.wrap_promotion.evt11 .promotion_makers_sns h3{line-height:0}
+.wrap_promotion.evt11 .promotion_makers_sns .sns_box{position:relative;border:1px solid #e2e2e2;margin:0 16px;}
+.wrap_promotion.evt11 .promotion_makers_sns .sns_box img{vertical-align:middle;}
+.wrap_promotion.evt11 .promotion_makers_sns .sns_box a{position:absolute;display:block;top:27%;width:12%;height:46.5%;text-indent:-9999px}
+.wrap_promotion.evt11 .promotion_makers_sns .sns_box a.sns_fb{right:25%;}
+.wrap_promotion.evt11 .promotion_makers_sns .sns_box a.sns_tw{right:8.5%;}
+.wrap_promotion.evt11 .promotion_makers_comment{margin-bottom:-37px}
+.wrap_promotion.evt11 .promotion_makers_comment h3{line-height:0}
+.wrap_makers_ing .makers_ing_top .comming_soon_img{position:relative;line-height:0}
+.wrap_makers_ing .makers_ing_top .comming_soon_img:after{content:"";display:block;position:absolute;left:0;top:0;right:0;bottom:0;border:1px solid #000;opacity:0.1;filter:alpha(opacity=10);}
+
+/* TICKET-3677 */
+/* TICKET-3810:20170516 */
+/*
+.promotion_makers_achieve .wrap_makers_achieve {display: none;}
+.promotion_makers_achieve.active .wrap_makers_achieve {display: block;}
+*/
+.promotion_makers_achieve.complete .wrap_makers_achieve {display: none;}
+.promotion_makers_achieve.complete.active .wrap_makers_achieve {display: block;}
+/* //TICKET-3810 */
+/* //TICKET-3677 */
+
+/* 티켓 플친 프로모션*/
+.wrap_promotion.evt12 {padding: 0; margin: 0; background-color: #fff;}
+.wrap_promotion.evt12 img {max-width: 100%; width: 100%; vertical-align: middle;}
+.wrap_promotion.evt12 .section02 ul {overflow: hidden;}
+.wrap_promotion.evt12 .section02 ul li {float: left; width: 50%;}
+.wrap_promotion.evt12 .section02 .tab-c {display: none;}
+.wrap_promotion.evt12 .section02 .tab-c.on {display: block;}
