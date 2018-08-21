@@ -3,23 +3,30 @@
   flex-direction: column;
   align-items: center;
   justify-content: center;
+  height: 100%;
 }
 
 #ticket .main-ticket__banner {
-  position: relative;
+  display: flex;
+  align-items: flex-end;
   width: 100%;
-  margin-bottom: 30px;
+  height: 50vw;
+  max-height: 450px;
+  margin-bottom: 20px;
+  background-image: url("../images/main-ticket.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: 50% 50%;
 }
 
 #ticket .main-ticket__banner .main-ticket__info {
-  z-index: 3;
-  position: absolute;
-  bottom: 10px;
-  left: 15px;
   display: flex;
   flex-direction: column;
   align-items: flex-start;
   justify-content: center;
+  width: 100%;
+  margin-left: 15px;
+  margin-bottom: 10px;
   color: white;
   font-size: 14px;
 }
@@ -29,9 +36,10 @@
 }
 
 .main-ticket__banner .main-ticket__info .main-ticket__title {
-  margin-bottom: 5px;
+  margin-bottom: 10px;
   color: #5dc952;
-  font-size: 18px;
+  font-size: 20px;
+  cursor: pointer;
 }
 
 .main-ticket__banner .main-ticket__info .main-ticket__date {
@@ -39,26 +47,21 @@
   font-size: 13px;
 }
 
-#ticket .main-ticket__banner .main-ticket__banner-image {
-  width: 100%;
-  height: 100%;
-  min-height: 200px;
-  max-height: 400px;
-}
-
-#ticket .sub-ticket__board-title {
+#ticket .ticket__board-title {
   font-size: 20px;
-  margin-bottom: 10px;
 }
 #ticket .ticket__row {
   display: flex;
   justify-content: space-between;
   width: 100%;
-  margin-bottom: 15px;
+  padding: 15px;
+  padding-bottom: 20px;
+  border-bottom: 1px solid #e7e7e7;
+  margin-bottom: 20px;
   font-size: 14px;
 }
 
-#ticket .ticket__row .album__item {
+#ticket .ticket__row .ticket__item {
   position: relative;
   display: flex;
   flex-direction: column;
@@ -66,11 +69,11 @@
   width: 50%;
 }
 
-#ticket .ticket__row .album__item:first-child {
+#ticket .ticket__row .ticket__item:first-child {
   margin-right: 15px;
 }
 
-#ticket .ticket__row .album__item .album__header {
+#ticket .ticket__row .ticket__item .ticket__header {
   position: absolute;
   top: 0;
   left: 0;
@@ -81,43 +84,144 @@
   margin-top: 5px;
 }
 
-#ticket .ticket__row .album__item .album__header .album__header-text {
+#ticket .ticket__row .ticket__item .ticket__header .ticket__header-text {
   padding-bottom: 10px;
   margin-left: 10px;
   color: white;
   font-size: 12px;
 }
 
-#ticket .ticket__row .album__item .album__header .album__header-image {
+#ticket .ticket__row .ticket__item .ticket__header .ticket__header-image {
   width: 25px;
   height: 25px;
   margin-top: 5px;
   margin-right: 5px;
 }
 
-#ticket .ticket__row .album__item .album__image {
+#ticket .ticket__row .ticket__item .ticket__image {
   width: 100%;
-  height: 100%;
-  min-height: 177.5px;
+  height: 60vw;
+  max-height: 450px;
   margin-bottom: 10px;
   cursor: pointer;
 }
 
-#ticket .ticket__row .album__item .album__title {
+#ticket .ticket__row .ticket__item .ticket__title {
+  font-size: 15px;
   margin-bottom: 5px;
   cursor: pointer;
 }
 
-#ticket .ticket__row .album__item .album__creator {
-  color: #5dc952;
+#ticket .ticket__row .ticket__item .ticket__date {
+  color: #a7a7a7;
+  font-size: 13px;
+  margin-bottom: 3px;
 }
 
-#ticket .more_button {
+#ticket .ticket__row .ticket__item .ticket__location {
+  color: #a7a7a7;
+  font-size: 13px;
+}
+
+#ticket .ticket__news {
+  display: flex;
+  flex-direction: column;
   width: 100%;
+  padding: 15px;
+  padding-top: 0;
+  margin-bottom: 15px;
+}
+
+#ticket .ticket__news .ticket__news-row {
+  display: flex;
+  width: 100%;
+  padding-top: 15px;
   padding-bottom: 15px;
-  text-align: center;
-  color: #b4b4b4;
-  font-size: 15px;
   border-bottom: 1px solid #efefef;
+}
+
+.ticket__news .ticket__news-row .ticket__news-image {
+  width: 70px;
+  height: 100px;
+  margin-right: 15px;
+}
+
+.ticket__news .ticket__news-row .ticket__news-info {
+  display: flex;
+  flex-direction: column;
+  margin-top: 5px;
+  color: #333333;
+  font-size: 15px;
+}
+
+.ticket__news-row .ticket__news-info .ticket__news-title {
+  margin-bottom: 5px;
+}
+.ticket__news-row .ticket__news-info .ticket__news-subtitle {
+  margin-bottom: 10px;
+}
+.ticket__news-row .ticket__news-info .ticket__news-date {
+  color: #5dc952;
+  font-size: 13px;
+}
+
+#ticket .concert__rank {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  padding: 15px;
+  padding-top: 0;
+}
+
+#ticket .concert__rank .concert__rank-row {
+  display: flex;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  border-bottom: 1px solid #efefef;
+}
+#ticket .concert__rank .concert__rank-row:nth-child(5) {
+  border: none;
+}
+
+.concert__rank .concert__rank-row .rank-number {
+  padding-top: 5px;
+  padding-left: 15px;
+  padding-right: 15px;
+  color: #5dc952;
+  font-size: 25px;
+}
+
+.concert__rank .concert__rank-row .concert-image {
+  width: 100px;
+  height: 150px;
+  margin-right: 10px;
+}
+
+.concert__rank .concert__rank-row .concert-info {
+  display: flex;
+  flex-direction: column;
+  padding-top: 10px;
+}
+
+.concert__rank-row .concert-info .concert-title {
+  color: #333333;
+  font-size: 15px;
+  margin-bottom: 10px;
+}
+
+.concert__rank-row .concert-info .concert-date {
+  color: #5dc952;
+  font-size: 13px;
+}
+
+.ticket__more-button {
+  width: 100%;
+  margin-top: 15px;
+  margin-bottom: 20px;
+  border: 1px solid #5dc952;
+  border-radius: 30px;
+  color: #5dc952;
+  text-align: center;
+  line-height: 36px;
   cursor: pointer;
 }
