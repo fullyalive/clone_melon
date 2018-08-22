@@ -180,6 +180,9 @@
   background-color: #fafafa;
 }
 
+#details .detail__musics .detail__musics-row:last-child {
+  padding-top: 0;
+}
 .detail__musics .detail__musics-row .order {
   padding-left: 10px;
   padding-right: 10px;
@@ -235,6 +238,9 @@
 }
 
 .music__more-button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
   width: 100%;
   border: 1px solid #5dc952;
   border-radius: 30px;
@@ -242,4 +248,8 @@
   text-align: center;
   line-height: 36px;
   cursor: pointer;
+}
+
+.music__more-button .music__play-button {
+  margin-left: 10px;
 }
