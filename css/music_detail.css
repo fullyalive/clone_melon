@@ -8,6 +8,9 @@
   z-index: 1;
 }
 
+#detail-header .detail-header__link:nth-child(2) {
+  margin-left: 20px;
+}
 #detail-header i {
   color: white;
   font-size: 22px;
@@ -47,13 +50,34 @@
   padding-right: 15px;
   z-index: 5;
 }
-/* 
-#detail-header .detail-header__columns .album__image {
-  position: absolute;
-  top: 55px;
+
+#detail-header .detail__contents {
+  display: flex;
+  align-items: center;
+  margin-top: 70px;
+  margin-left: 15px;
+}
+
+#detail-header .detail__contents .album__image {
   width: 100px;
   height: 100px;
-} */
+  margin-right: 15px;
+}
+
+#detail-header .detail__contents .album__detail-info {
+  display: flex;
+  flex-direction: column;
+  color: white;
+}
+
+.detail__contents .album__detail-info .album__detail-title {
+  margin-bottom: 10px;
+  font-size: 20px;
+}
+.detail__contents .album__detail-info .album__detail-date {
+  color: #b4b4b4;
+  font-size: 14px;
+}
 
 #detail-header .detail-header__column {
   display: flex;
@@ -70,12 +94,152 @@
   justify-content: flex-end;
 }
 
-
-
 #detail-header .detail-header__icon {
   display: inline-block;
   width: 30px;
   height: 18px;
   margin-left: 20px;
+  cursor: pointer;
+}
+
+#details {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+}
+
+#details .detail__profile-columns {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  padding: 20px;
+}
+
+#details .detail__profile-columns i {
+  color: #b4b4b4;
+  font-size: 13px;
+}
+
+#details .detail__profile-columns .count {
+  color: #b4b4b4;
+  font-size: 13px;
+}
+#details .detail__profile-container {
+  position: absolute;
+  top: -27.5px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  padding-right: 20px;
+  z-index: 10;
+}
+
+#details .detail__profile-container .detail__profile-image {
+  width: 55px;
+  height: 55px;
+  border-radius: 50%;
+  margin-bottom: 10px;
+}
+
+#details .detail__profile-container .detail__profile-name {
+  font-size: 15px;
+  color: #5dc952;
+}
+
+#details .detail__category {
+  display: flex;
+  justify-content: space-around;
+  width: 100%;
+  padding-bottom: 5px;
+  margin-top: 20px;
+  border-bottom: 1px solid #efefef;
+}
+
+#details .detail__category .detail__category-item {
+  padding: 10px;
+  color: #333333;
+  font-size: 15px;
+}
+
+#details .detail__musics {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  padding-top: 0;
+}
+
+#details .detail__musics .detail__musics-row {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  padding: 15px;
+  background-color: #fafafa;
+}
+
+.detail__musics .detail__musics-row .order {
+  padding-left: 10px;
+  padding-right: 10px;
+  color: #b4b4b4;
+}
+
+.detail__musics .detail__musics-row .music-title {
+  width: 80%;
+  display: flex;
+  flex-direction: column;
+}
+
+.detail__musics-row .music-title .title-info {
+  display: flex;
+  width: 100%;
+  margin-bottom: 10px;
+}
+
+.music-title .title-info .title {
+  cursor: pointer;
+}
+
+.music-title .title-info .title-icon {
+  display: flex;
+  justify-content: center;
+  padding: 1px;
+  padding-left: 2px;
+  padding-right: 3px;
+  margin-right: 5px;
+  color: #5dc952;
+  font-size: 8px;
+  text-align: center;
+  border: 1px solid #5dc952;
+  border-radius: 10px;
+}
+
+.detail__musics-row .music-title .creator {
+  color: #a7a7a7;
+  font-size: 14px;
+  cursor: pointer;
+}
+
+.detail__musics-column {
+  display: flex;
+  justify-content: flex-end;
+  width: 20%;
+}
+
+.detail__musics-row .music__play-button {
+  width: 16px;
+  height: 16px;
+  cursor: pointer;
+}
+
+.music__more-button {
+  width: 100%;
+  border: 1px solid #5dc952;
+  border-radius: 30px;
+  color: #5dc952;
+  text-align: center;
+  line-height: 36px;
   cursor: pointer;
 }
