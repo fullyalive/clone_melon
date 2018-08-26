@@ -1,6 +1,11 @@
 main {
   animation: 0.4s bodyPopIn ease-in-out;
 }
+
+#detail-header {
+  animation: 0.4s bodyPopIn ease-in-out;
+}
+
 @keyframes bodyPopIn {
   from {
     opacity: 0;
