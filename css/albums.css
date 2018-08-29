@@ -58,8 +58,12 @@
   max-height: 430px;
   margin-bottom: 10px;
   cursor: pointer;
+  transition: all 0.3s ease-in-out;
 }
 
+#albums .albums__row .album__item .album__image:hover {
+  transform: translateY(-10px);
+}
 #albums .albums__row .album__item .album__title {
   margin-bottom: 5px;
   cursor: pointer;

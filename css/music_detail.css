@@ -143,6 +143,11 @@
   height: 55px;
   border-radius: 50%;
   margin-bottom: 10px;
+  transition: all 1s ease-in-out;
+}
+
+#details .detail__profile-container .detail__profile-image:hover {
+  transform: rotateY(1turn);
 }
 
 #details .detail__profile-container .detail__profile-name {
