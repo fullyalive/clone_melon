@@ -1,0 +1,87 @@
+#albums {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 15px;
+}
+
+#albums .albums__row {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  margin-bottom: 15px;
+  font-size: 14px;
+}
+
+#albums .albums__row .album__item {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    width: 50%;
+}
+
+/* 구글에 css selector라고 치면 나온다 :
+이건 같은 클래스값을 가진 애들 중 특정 순서의 애만 속성을 주고 싶을 때 사용하는 것 */
+#albums .albums__row .album__item:first-child {
+    margin-right: 15px;
+}
+
+#albums .albums__row .album__item .album__header {
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    margin-top: 5px;
+}
+
+#albums  .albums__row .album__item .album__header .album__header-text {
+    padding-bottom: 10px;
+    margin-left: 10px;
+    color: white;
+    font-size: 12px;
+}
+
+#albums .albums__row .album__item .album__header .album__header-image {
+    width: 25px;
+    height: 25px;
+    margin-top: 5px;
+    margin-right: 5px;
+}
+
+#albums .albums__row .album__item .album__image {
+    width: 100%;
+    height: 100%;
+    min-height: 177.5px;
+    max-height: 430px;
+    margin-bottom: 10px;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+}
+
+/* css transfrom property 검색 : transform에 대한 속성 리스트업 */
+#albums .albums__row .album__item .album__image:hover {
+    transform: translateY(-10px);
+}
+
+#albums .albums__row .album__item .album__title {
+    margin-bottom: 5px;
+    cursor: pointer;
+}
+
+#albums .albums__row .album__item .album__creator {
+    color: #5dc952;
+}
+
+#albums .more_button {
+    width: 100%;
+    padding-bottom: 15px;
+    text-align: center;
+    color: #b4b4b4;
+    font-size: 15px;
+    border-bottom: 1px solid #efefef;
+}

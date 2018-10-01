@@ -16,7 +16,7 @@
 }
 
 .search__input-container .search__input::placeholder {
-  color: #afafaf;
+  color: #b4b4b4;
 }
 
 .search__input-container .search__input:focus {
@@ -26,7 +26,7 @@
 #search {
   display: flex;
   flex-direction: column;
-  align-items: cetner;
+  align-items: center;
   justify-content: center;
   width: 100%;
   padding-left: 10px;

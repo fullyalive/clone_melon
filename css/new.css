@@ -1,7 +1,7 @@
 #new-music {
   display: flex;
   flex-direction: column;
-  align-items: cetner;
+  align-items: center;
   justify-content: center;
   width: 100%;
   background-color: #fafafa;
@@ -9,7 +9,6 @@
 
 #new-music .new-music__row {
   display: flex;
-  align-items: flex-start;
   width: 100%;
   padding: 15px;
   padding-top: 10px;
