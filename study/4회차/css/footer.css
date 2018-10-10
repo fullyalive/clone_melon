@@ -1,0 +1,79 @@
+#footer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  padding-top: 5px;
+}
+
+#footer .top_button {
+  width: 110px;
+  padding: 3px;
+  margin-bottom: 15px;
+  border: 1px solid #b7b7b7;
+  border-radius: 15px; /*모서리 둥근정도*/
+  text-align: center;
+  color: #b7b7b7;
+  font-size: 12px;
+}
+
+#footer .top_button .top_button-image {
+  height: 12px;
+  margin-right: 5px;
+}
+
+#footer .footer__category {
+  color: #666666;
+  font-size: 12px;
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
+
+.footer__category .footer__category-row {
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+
+.footer__category .footer__category-row .category_list {
+  cursor: pointer;
+}
+
+#footer .footer__information {
+  display: flex;
+  flex-direction: column;
+  max-width: 250px;
+  margin-bottom: 15px;
+  color: #b7b7b7;
+  font-size: 11px;
+}
+
+#footer .footer__information .footer__information-row {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 10px;
+}
+
+/* .footer__information .footer__information-row .company_name {
+    margin-bottom: 10px;
+    color: #666666;
+} */
+
+.footer__information .footer__information-row .company_information:first-child {
+  color: #666666;
+}
+
+.footer__information .footer__information-row .company_information {
+  margin-bottom: 10px;
+}
+
+.footer__information .footer__information-row .contacts {
+  color: #666666;
+  cursor: pointer;
+}
+
+.footer__information .copyright {
+  color: #b7b7b7;
+  margin-top: 10px;
+  margin-bottom: 20px;
+}

@@ -1,0 +1,138 @@
+#hamburger {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  padding: 18px;
+  padding-bottom: 15px;
+  background-color: #fafafa;
+}
+
+#hamburger i {
+  color: #5dc952;
+  font-size: 22px;
+}
+
+#hamburger .hamburger__column {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 80%;
+}
+
+#hamburger .hamburger__column:first-child {
+  justify-content: flex-start;
+}
+
+#hamburger .hamburger__column:last-child {
+  width: 20%;
+  justify-content: flex-end;
+  align-items: flex-start;
+  margin-bottom: 18px;
+}
+
+#hamburger .hamburger__icon {
+  display: inline-block;
+  width: 30px;
+  height: 35px;
+  margin-right: 20px;
+  margin-bottom: 10px;
+}
+
+#hamburger .hamburger__avatar {
+  display: inline-block;
+  width: 55px;
+  height: 55px;
+  padding: 10px;
+  margin-right: 20px;
+  border: 2px solid #5dc952;
+  border-radius: 50%;
+  cursor: pointer;
+}
+
+#hamburger .hamburger__column .hamburger__link {
+  margin-top: 3px;
+}
+
+#menu {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  margin-bottom: 20px;
+  background-color: white;
+}
+
+#menu .menu__header {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 100%;
+  background-color: #fafafa;
+}
+
+#menu .menu__header .menu__header-column {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  padding: 10px;
+}
+
+#menu .menu__header .menu__header-column:last-child {
+  padding-top: 0;
+}
+
+.menu__header .menu__header-column .title {
+  font-size: 13px;
+}
+
+.menu__header .menu__header-column .button {
+  padding: 5px;
+  border: 1px solid #a7a7a7;
+  border-radius: 15px;
+  color: #a7a7a7;
+  font-size: 12px;
+}
+
+.title-focused {
+  color: #5dc952;
+}
+
+#menu .menu__row {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  padding: 15px;
+  border-top: 1px solid #e5e5e5;
+}
+
+#menu .menu__row .menu__row-column {
+  display: flex;
+  align-items: center;
+  line-height: 16px;
+}
+
+#menu .menu__row .menu__row-column:first-child {
+  width: 30px;
+  margin-right: 20px;
+}
+
+#menu .menu__row .menu__row-column:last-child {
+  display: flex;
+  /* justify-content: space-between; */
+  width: 100%;
+  min-width: 280px;
+}
+
+#menu .menu__footer {
+  display: flex;
+  justify-content: flex-start;
+  width: 100%;
+  padding-top: 10px;
+  padding-left: 10px;
+  padding-bottom: 10px;
+  font-size: 14px;
+}
